@@ -1,0 +1,30 @@
+# Build output
+build/
+dist/
+*.spec
+
+# Config (kullanıcıya özel, repo'ya girmemeli)
+config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
